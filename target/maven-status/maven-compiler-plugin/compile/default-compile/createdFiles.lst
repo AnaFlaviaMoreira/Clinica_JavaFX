@@ -1,0 +1,4 @@
+org\model\Paciente.class
+org\ui\PacienteUISwing.class
+org\Main.class
+org\dao\PacienteDAO.class

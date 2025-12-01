@@ -1,0 +1,124 @@
+CLINICA_LIMPA - INÍCIO RÁPIDO
+=============================
+
+📁 PASTA: C:\Users\Redstone\Desktop\Clinica_Limpa
+
+⚡ COMEÇAR EM 10 SEGUNDOS (Windows)
+===================================
+
+1. Abra PowerShell/CMD
+2. Execute: cd C:\Users\Redstone\Desktop\Clinica_Limpa
+3. Execute: .\compile.bat
+4. Execute: .\run_ui.bat
+
+✅ PRONTO! Interface rodando com dados salvos em pacientes.csv
+
+
+📋 COMANDOS RÁPIDOS
+===================
+
+COMPILAR:
+  Windows:  compile.bat
+  Linux:    bash compile.sh
+  Manual:   javac -d target/classes src/main/java/org/**/*.java
+
+EXECUTAR INTERFACE:
+  Windows:  run_ui.bat
+  Manual:   java -cp target/classes org.ui.PacienteUISwing
+
+EXECUTAR CONSOLE:
+  Windows:  run_console.bat
+  Manual:   java -cp target/classes org.Main
+
+
+📂 ESTRUTURA MINIMALISTA
+========================
+
+4 Classes Java:
+  ✓ Paciente.java      - Entidade simples
+  ✓ PacienteDAO.java   - Acesso a dados (CSV)
+  ✓ PacienteUISwing.java - Interface Swing
+  ✓ Main.java          - Exemplo console
+
+0 Dependências externas
+0 Configurações complexas
+0 Arquivos desnecessários
+
+
+🎯 FUNCIONALIDADES
+==================
+
+✓ Cadastrar pacientes
+✓ Listar todos
+✓ Buscar por nome
+✓ Atualizar dados
+✓ Deletar paciente
+✓ Máscaras de entrada (CPF, Data, Telefone)
+✓ Formato brasileiro
+✓ Persistência automática em CSV
+
+
+💡 DICAS
+========
+
+- Dados são salvos em "pacientes.csv" automaticamente
+- Pode executar múltiplas instâncias da interface simultaneamente
+- Compilar é muito rápido (< 1 segundo)
+- Sem necessidade de Maven instalado
+- Funciona offline (sem internet)
+
+
+❓ PROBLEMAS?
+=============
+
+"Java não encontrado":
+  → Instale Java 24+
+  → Ou use: C:\Program Files\Java\jdk-24\bin\java.exe
+
+Erro ao compilar:
+  → Certifique-se que está na pasta Clinica_Limpa
+  → Use: javac -d target/classes -encoding UTF-8 src/main/java/org/**/*.java
+
+Interface não abre:
+  → Verifique se compilou antes
+  → Tente executar direto: java -cp target/classes org.ui.PacienteUISwing
+
+
+📞 ARQUIVOS IMPORTANTES
+=======================
+
+README.md      - Instruções básicas
+GUIA_LIMPA.md  - Guia completo
+STATUS.md      - Relatório de status
+pom.xml        - Configuração Maven (opcional)
+compile.bat    - Script compilação
+run_ui.bat     - Script execução interface
+
+
+✨ RECURSOS ÚNICOS
+==================
+
+✓ Zero dependências
+✓ Código totalmente compreensível
+✓ Sem anotações complexas
+✓ Sem frameworks pesados
+✓ Compilação instantânea
+✓ Execução otimizada
+✓ Perfeito para aprender
+
+
+🎓 APRENDIZADO
+==============
+
+Ideal para entender:
+- Padrão DAO (Data Access Object)
+- GUI com Swing
+- Persistência em arquivos
+- Java orientado a objetos
+- Boas práticas de programação
+- Como organizar código
+
+
+VERSÃO: 1.0
+DATA: 30/11/2025
+STATUS: ✅ COMPLETO E TESTADO
