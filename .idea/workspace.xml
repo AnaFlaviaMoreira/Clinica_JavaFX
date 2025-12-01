@@ -4,33 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094a6ee4-860f-45b1-ad53-5a2ef23f0780" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COMECE_AQUI.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUIA_LIMPA.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STATUS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compile.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compile.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pacientes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_console.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_ui.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dao/PacienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/model/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ui/PacienteUISwing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/dao/PacienteDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/model/Paciente.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/ui/PacienteUISwing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="094a6ee4-860f-45b1-ad53-5a2ef23f0780" name="Changes" comment="Atualização">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dao/PacienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/dao/PacienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/model/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ui/PacienteUISwing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/ui/PacienteUISwing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dao/PacienteDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/model/Paciente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/ui/PacienteUISwing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +93,7 @@
             <option name="goals">
               <list>
                 <option value="exec:java" />
-                <option value="-Dexec.mainClass=org.ui.PacienteUISwing" />
+                <option value="-Dexec.mainClass=example.ui.PacienteUISwing" />
               </list>
             </option>
             <option name="multimoduleDir" />
@@ -136,6 +121,19 @@
       <option name="presentableId" value="Default" />
       <updated>1764559632134</updated>
     </task>
+    <task id="LOCAL-00001" summary="Atualização">
+      <option name="closed" value="true" />
+      <created>1764561403729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764561403729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Atualização" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização" />
   </component>
 </project>

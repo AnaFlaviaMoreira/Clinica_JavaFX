@@ -49,7 +49,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.6.2</version>
                 <configuration>
-                    <mainClass>org.ui.PacienteUISwing</mainClass>
+                    <mainClass>example.ui.PacienteUISwing</mainClass>
                     <includeProjectDependencies>true</includeProjectDependencies>
                     <includePluginDependencies>false</includePluginDependencies>
                     <classpathScope>compile</classpathScope>

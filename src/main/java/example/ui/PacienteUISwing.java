@@ -1,14 +1,13 @@
-package org.ui;
+package example.ui;
 
-import org.dao.PacienteDAO;
-import org.model.Paciente;
+import example.dao.PacienteDAO;
+import example.model.Paciente;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.text.MaskFormatter;
 import java.awt.*;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 /**

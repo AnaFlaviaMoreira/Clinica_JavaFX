@@ -1,6 +1,6 @@
-package org.dao;
+package example.dao;
 
-import org.model.Paciente;
+import example.model.Paciente;
 
 import java.io.*;
 import java.nio.file.Files;

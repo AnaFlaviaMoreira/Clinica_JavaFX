@@ -1,7 +1,7 @@
-package org;
+package example;
 
-import org.dao.PacienteDAO;
-import org.model.Paciente;
+import example.dao.PacienteDAO;
+import example.model.Paciente;
 
 import java.time.LocalDate;
 
